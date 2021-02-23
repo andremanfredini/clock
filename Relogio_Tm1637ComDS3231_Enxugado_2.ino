@@ -6,6 +6,8 @@
 #define brightness 2
 #define DS3231_I2C_ADDRESS 0x68
 
+// Ds3231 ligado na porta SDA e SCL do Arduino e O Display na porta 6 > CLK e 7 > DIO
+
 TM1637 tm1637(CLK, DIO);
 
 
